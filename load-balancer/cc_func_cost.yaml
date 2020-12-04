@@ -1,0 +1,22 @@
+functions:
+  - function:
+      functionName: send_payment
+      cost: 600
+  - function:
+      functionName: amalgamate
+      cost: 600
+  - function:
+      functionName: create_account
+      cost: 400
+  - function:
+      functionName: write_check
+      cost: 350
+  - function:
+      functionName: transact_savings
+      cost: 350
+  - function:
+      functionName: deposit_checking
+      cost: 300
+  - function:
+      functionName: query
+      cost: 200
