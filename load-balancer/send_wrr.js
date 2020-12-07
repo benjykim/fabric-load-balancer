@@ -10,7 +10,7 @@ const path = require('path');
 const axios = require('axios')
 const yaml = require('js-yaml')
 
-const ccpPath = path.resolve(__dirname, '..', '..', 'ben-multi-host', 'connection.json');
+const ccpPath = path.resolve(__dirname, '..', 'environment-settings', 'connection.json');
 const ccpJSON = fs.readFileSync(ccpPath, 'utf8');
 const ccp = JSON.parse(ccpJSON);
 
